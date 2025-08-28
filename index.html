@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Indie Traveller</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/Plane_icon.svg.png">
+  <script src="https://kit.fontawesome.com/235569064f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div>
+  <nav class="hidden md:flex fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-md text-white">
+    <div class="flex items-center justify-between w-full px-4 py-3">
+      <a href="#" class="text-2xl font-bold">Indie Traveller</a>
+      <ul class="flex items-center gap-6 uppercase text-sm">
+        <li class="hover-scale"><a href="#">Destinations</a></li>
+        <li class="hover-scale"><a href="#">Travel Blog</a></li>
+        <li class="hover-scale"><a href="#">Travel Advice</a></li>
+        <li class="hover-scale"><a href="#">Great Reviews</a></li>
+        <li class="hover-scale"><a href="#">New & Popular</a></li>
+        <li class="hover-scale"><a href="#">About</a></li>
+        <li class="hover-scale"><a href="#">Book</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="flex flex-col md:hidden fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-md text-white">
+    <div class="flex items-center justify-between w-full px-4 py-3">
+      <a href="#" class="text-2xl font-bold">Indie Traveller</a>
+      <button class="menu-btn text-2xl ">☰</button>
+    </div>
+    <ul class="hidden flex-col w-full items-center gap-6 py-4 uppercase text-sm mobile-links">
+      <li class="hover-scale"><a href="#">Destinations</a></li>
+      <li class="hover-scale"><a href="#">Travel Blog</a></li>
+      <li class="hover-scale"><a href="#">Travel Advice</a></li>
+      <li class="hover-scale"><a href="#">Great Reviews</a></li>
+      <li class="hover-scale"><a href="#">New & Popular</a></li>
+      <li class="hover-scale"><a href="#">About</a></li>
+      <li class="hover-scale"><a href="#">Book</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="cover relative bg-[url(./img/cover.jpg)] bg-no-repeat bg-cover bg-center h-[700px] sm:h-[500px]">
+  <div class="absolute inset-0 bg-black/50"></div>
+  <div class="relative z-10 flex items-center justify-center h-full">
+    <div class="text-center text-white px-4">
+      <div class="title">
+        <span class="font-bold text-[clamp(1.5rem,5vw,4rem)]">WELCOME</span>
+      </div>
+      <div class="caption max-w-xl mx-auto mt-4 px-2 text-sm sm:text-base">
+        <span>Indie Traveller is all about travelling adventurously around the world. No sponsored trips. Just real travel tips.</span>
+      </div>
+      <div class="mt-2.5">
+        <span>MORE ABOUT INDIE TRAVELLER <i class="fa-solid fa-arrow-right font-thin text-blue-500"></i></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="rows">
+  <div class="bg-black text-white flex justify-center px-4 py-8">
+    <div id="row1" class="mb-2 pb-2 flex justify-between w-full max-w-4xl border-b-1 border-gray-400 uppercase tracking-wider">
+      <label class="flex flex-col text-gray-400 mr-4">
+        Featured Trip
+        <span class="text-white">Andalucis, Spain</span>
+      </label>
+      <label class="flex flex-col text-gray-400">
+        Before You Travel
+        <span class="text-white">My Travel Checklist</span>
+      </label>
+      <label class="flex flex-col text-gray-400 ml-4">
+        Travels Essentials
+        <span class="text-white">top apps and resources i use</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="bg-black text-white flex justify-center px-4 py-8">
+    <div class="mb-2 pb-2 flex flex-wrap gap-3 w-full max-w-4xl uppercase tracking-wider" id="row2">
+      <label class="flex flex-col text-gray-400 flex-1 min-w-[250px]">
+        Explore destinations
+        <span class="text-white max-w-full">Dig into our down-to-Earth budget travel guides from around the world, filled with itinerary ideas, travel tips, and recommendations for places to go.</span>
+      </label>
+      <div class="bg-black text-white flex justify-center px-4 py-8">
+        <div class="w-full max-w-4xl flex gap-5 flex-wrap">
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/southest asia.jpg" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Southeast Asia</p>
+          </div>
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/centralamerica.jpg" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Central America</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black text-white flex justify-center px-4 py-8">
+    <div class="mb-2 pb-2 flex flex-wrap gap-3 w-full max-w-4xl uppercase tracking-wider" id="row2">
+      <div class="bg-black text-white flex justify-center px-4 py-8">
+        <div class="w-full max-w-4xl flex gap-5 flex-wrap">
+          <label class="flex flex-col text-gray-400 flex-1 min-w-[250px]">
+            Explore the world around you
+            <span class="text-white max-w-full">Exploring the world around you means noticing the small details, finding beauty in the everyday, and staying curious about what’s right in front of you.</span>
+          </label>
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/rawshe.jpg" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Beirut</p>
+          </div>
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/download.avif" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Byblos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black text-white flex justify-center px-4 py-8">
+    <div class="mb-2 pb-2 flex justify-between w-full max-w-4xl border-b-1 border-gray-400 uppercase tracking-wider" id="row2">
+      <div class="bg-black text-white flex justify-center px-4 py-8">
+        <div class="w-full max-w-4xl flex gap-5 flex-wrap">
+          <label class="flex flex-col text-gray-400 flex-1 min-w-[250px]">
+            The beauty of it
+            <span class="text-white max-w-full">The world holds endless beauty, from turquoise seas and towering mountains to vibrant cities and serene landscapes, each offering a glimpse of nature’s and humanity’s wonders.</span>
+          </label>
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/maldive.webp" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Maldive</p>
+          </div>
+          <div class="relative w-full sm:w-60 h-30 rounded-lg overflow-hidden hover-scale">
+            <img src="./img/petra.jpg" class="w-full h-full object-cover">
+            <p class="absolute inset-0 flex items-center justify-center text-white font-bold text-center bg-black/30">Petra</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="zone footer bg-black text-white text-center py-12">
+  <div class="flex justify-center items-center gap-6 mb-8">
+    <span class="text-lg font-semibold">Socials:</span>
+    <i class="fa-brands fa-facebook-f fa-2x cursor-pointer hover:text-gray-300"></i>
+    <i class="fa-brands fa-instagram fa-2x cursor-pointer hover:text-gray-300"></i>
+    <i class="fa-brands fa-x-twitter fa-2x cursor-pointer hover:text-gray-300"></i>
+    <i class="fa-brands fa-youtube fa-2x cursor-pointer hover:text-gray-300"></i>
+  </div>
+  <div class="flex flex-col items-center gap-4 text-gray-400">
+    <ul class="flex flex-row flex-wrap justify-center gap-6">
+      <li class="hover:text-white cursor-pointer">Contact us</li>
+      <li class="hover:text-white cursor-pointer">Help Center</li>
+      <li class="hover:text-white cursor-pointer">Plane Tickets</li>
+    </ul>
+    <ul class="flex flex-row flex-wrap justify-center gap-6">
+      <li class="hover:text-white cursor-pointer">Jobs</li>
+      <li class="hover:text-white cursor-pointer">Terms of Use</li>
+      <li class="hover:text-white cursor-pointer">Privacy</li>
+    </ul>
+    <ul class="flex flex-row flex-wrap justify-center gap-6">
+      <li class="hover:text-white cursor-pointer">Legal Notices</li>
+      <li class="hover:text-white cursor-pointer">Cookie Preferences</li>
+      <li class="hover:text-white cursor-pointer">Corporate Information</li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
